@@ -9,6 +9,7 @@ var pwdlessCountryCodeButton = getElementByXpath(XPATH_LOGIN_ID__COUNTRYCODE_BUT
 
 alert("antes de if");
 
+
 if (pwdlessCountryCodeButton != null) {
 
     //Disable the country code picker button
