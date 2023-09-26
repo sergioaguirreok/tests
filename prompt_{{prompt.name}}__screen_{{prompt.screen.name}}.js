@@ -7,6 +7,8 @@ const appName = "{{application.name}}";
 
 var pwdlessCountryCodeButton = getElementByXpath(XPATH_LOGIN_ID__COUNTRYCODE_BUTTON);
 
+alert("antes de if");
+
 if (pwdlessCountryCodeButton != null) {
 
     //Disable the country code picker button
